@@ -1,0 +1,113 @@
+body {
+    margin: 10px 150px 15px 150px;
+    font-family: Arial, sans-serif;
+}
+
+.parte_arriba {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background: #f6f7f4; 
+}
+
+.parte {
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.parte a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0px;
+    
+}
+
+
+.parte i {
+    margin-left: 5px; 
+}
+
+
+.uno a { background: rgb(70, 107, 70); }
+.dos a { background: rgb(50, 105, 224); }
+.tres a { background: rgb(148, 73, 148); }
+.cuatro a { background: rgb(65, 65, 65); }
+.cinco a { background: rgb(255, 200, 48); }
+.seis a { background: rgb(242, 136, 40); }
+
+
+.emoji-leon::before { content: "🦁"; }
+.emoji-carita::before { content: "😜"; }
+.emoji-dormir::before { content: "😴"; }
+.emoji-parasol::before { content: "⛱️"; }
+.emoji-pizza::before { content: "🍕"; }
+.emoji-trebol::before { content: "🍀"; }
+
+/*-------------------------------------PARTE DE ABAJO --------------------------------------------------------*/
+
+.fondo_abajo {
+    display: flex;
+    border: 5px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 500px; 
+    background-color: yellow; 
+}
+
+.parte_izquierda, .parte_derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.parte_izquierda {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.parte_derecha {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.parte_derecha .parte {
+    flex: 1;
+}
+
+.parte_izquierda .parte {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 249, 249);
+}
+
+.uno2 { 
+    background: rgb(70, 107, 70); 
+}
+
+.dos2 { 
+    background: rgb(50, 105, 224); 
+}
+
+.tres2 { 
+    background: rgb(148, 73, 148); 
+}
+
+.cuatro2 { 
+    background: rgb(65, 65, 65); 
+ }
+
+.cinco2 { 
+    background: rgb(255, 200, 48); 
+}
+
+.seis2 { 
+    background: rgb(242, 136, 40); 
+ }
